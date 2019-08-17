@@ -248,3 +248,12 @@ This project is using SQLite database, so for the testing purposes a new databas
 Run the following Maven command to test:
 
 mvn test
+
+
+## Licence
+
+MIT
+
+## Contribute
+
+Contributors are welcome! :)
