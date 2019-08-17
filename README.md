@@ -16,7 +16,7 @@ mvn -f server-pom.xml clean
 mvn -f server-pom.xml package 
 mvn -f commandline-pom.xml package
 ```
-![alt text](https://www.webriders.se/other/mvn-clean-package-bookstore.png)
+<img src="/art/tutorials/mvn-clean-package-bookstore?raw=true" width="200px">
 
 Now you will have two Jar files in the target directory which one of them belongs to the server and the other one belongs to the commandline application.
 
