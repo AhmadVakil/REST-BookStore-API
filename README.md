@@ -20,11 +20,18 @@ mvn -f commandline-pom.xml package
 
 Now you will have two Jar files in the target directory which one of them belongs to the server and the other one belongs to the commandline application.
 
-In order to run both Jar files, navigate to target directory and run the following commands in two separate terminal:
+In order to run both Jar files, navigate to target directory and run the following commands in two separate terminal, shell or Git Bash.
+Consider that the target directory will be created when you use package command for a pom and will be deleted with clean command.
 ```
 java -jar server-1.0-RELEASE.jar
+```
+<img src="/src/tutorials/mvn-java-server.png">
+
+```
 java -jar commandline-1.0-RELEASE.jar
 ```
+<img src="/src/tutorials/mvn-java-commandline.png">
+
 Now you have both the server and the commandline up and running. You will also have a database file called BookShop.db which store all the data.
 
 ##### Do you have compilation problem?
