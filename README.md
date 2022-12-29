@@ -1,6 +1,6 @@
 # Spring Boot REST API
 
-This project is a book store API that can be used as a backend for e-commerce. 
+This project represent a book store or a backend system that responds to POST/GET requests. This book store developed together with its RESTful API and supports requests/responds. This project can be used as a good backend demonstration for e-commerce. Once you have this backend up and running, then you can spend some time to develope the frontend/view which is really entertaining. Just follow the instructions and you will be fine.
 
 ## Getting Started
 
